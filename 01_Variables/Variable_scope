@@ -1,0 +1,20 @@
+# Variable Scope
+# Variables have different scopes depending on where they're defined:
+
+# Global variables:
+#    Globbal var are the variable which can access every where in program
+
+# Local variables:
+#    Local var are the variable which can access only in the block not accessed outside the block
+
+global_var = "I'm global"  # Global variable
+
+def my_function():
+    local_var = "I'm local"  # Local variable
+    print(global_var)  # Can access global variables
+    print(local_var)   # Can access local variables
+
+my_function()
+
+print(global_var)  # Works
+print(local_var)   # Raises NameError: name 'local_var' is not defined

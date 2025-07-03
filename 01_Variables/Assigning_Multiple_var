@@ -1,0 +1,13 @@
+# Assigning multiple variables in one line
+x, y, z = 10, 20, 30
+
+print(x)  # Output: 10
+print(y)  # Output: 20
+print(z)  # Output: 30
+
+# Assigning same value to multiple variables
+a = b = c = 100
+
+print(a)  # Output: 100
+print(b)  # Output: 100
+print(c)  # Output: 100
